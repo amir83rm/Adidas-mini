@@ -1,0 +1,108 @@
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: #eee;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bod;
+}
+section{
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.product-card{
+    border:  1px solid #ddd;
+    padding:15 px;
+    margin: 10 px;
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+  
+}
+button{
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.product-carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.product-card{
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+/* Add this to your styles.css */
+
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+ul img{
+    width: 7%;
+    margin: 0 auto;
+   
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+nav a:hover {
+    color: #b1abab; /* Change color on hover */
+}
+
+
+
+
